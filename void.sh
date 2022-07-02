@@ -1,4 +1,4 @@
-# Wellcom to VOID
+# Wellcom to VOID SUCKLESS
 
 ## Part 1:
 echo "Updating The System"
