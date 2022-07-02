@@ -1,4 +1,4 @@
-# VOID AUTO INSTALL SCRIPT
+# SUCKLESS FOR VOID AUTO INSTALL SCRIPT
 
 ### Change the privileges so that you don't need to type your passwerd every time.
 
