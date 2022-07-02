@@ -28,15 +28,10 @@ cd ..
 cd dmenu
 make
 sudo make clean install
-
-### NOTE: If you want to git my build of the suckless tools comment the three lines before and uncomment the following line.
-
-#git clone https://github.com/elbachir-one/MySuckless
 cd
 touch ~/.xinitrc
-echo "setxkbmap us" >> .xinitrc
+echo "setxkbmap us &" >> .xinitrc
 echo "exec dwm" >> .xinitrc
-
 echo "startx" >> .bash_profile
 
 sudo reboot
