@@ -4,7 +4,7 @@
 echo "Updating The System"
 sudo xbps-install -Syy
 sudo xbps-install -u xbps
-sudo xbps-install Syu
+sudo xbps-install -Syu
 
 ## Part 2:
 echo "Installing The Necessary Stuff"
