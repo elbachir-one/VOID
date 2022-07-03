@@ -8,7 +8,7 @@ sudo xbps-install -Syu
 
 ## Part 2:
 echo "Installing The Necessary Stuff"
-sudo xbps-install -Su base-devel xorg libXft-devel libX11-devel libXinerama-devel git chromium nodejs htop mpv feh terminus-font nerd-fonts-ttf lsd
+sudo xbps-install -S --yes base-devel xorg libXft-devel libX11-devel libXinerama-devel chromium nodejs htop mpv feh terminus-font nerd-fonts-ttf lsd neofetch
 
 ## Part 3:
 echo "Setup A Window Manager (DWM)"
