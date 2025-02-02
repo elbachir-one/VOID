@@ -1,14 +1,15 @@
 # SUCKLESS FOR VOID AUTO INSTALL SCRIPT
 
-### Change the privileges so that you don't need to type your passwerd every time
+#### Change the privileges so that you don't need to type your passwerd every time
 
 ```bash
-sudo EDITOR=vim visudo
+sudo visudo
 ```
 
-`uncoment this line (#%wheel ALL=(ALL:ALL) NOPASSWD: ALL) ===> (%wheel ALL=(ALL:ALL) NOPASSWD: ALL)`
+**Uncoment this line** `#%wheel ALL=(ALL:ALL) NOPASSWD: ALL` to be
+`%wheel ALL=(ALL:ALL) NOPASSWD: ALL`
 
-### Git the script
+#### Git the script
 
 ```bash
 xbps-fetch https://raw.githubusercontent.com/elbachir-one/VOID/refs/heads/main/void-suckless.sh
